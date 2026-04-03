@@ -1,6 +1,8 @@
-def main():
-    # Printing the success message
-    print("Suda its working!")
+import streamlit as st
 
-if __name__ == "__main__":
-    main()
+# Setting the title of the web app
+st.title("Suda its working!")
+
+# Optional: Add a little celebration
+st.balloons()
+st.success("App loaded successfully.")
